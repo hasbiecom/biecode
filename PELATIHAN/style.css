@@ -1,0 +1,36 @@
+h1 {
+    color: red;
+    font-family: Arial, helvetica, sans-serif;
+    text-align: center;
+}
+
+.description{
+    font-family: sans-serif;
+    color: mediumblue;
+    font-size: 30px;
+}
+
+/*menggunakan # untuk tag id sedangkan jika menggunakan titik (.)
+untuk tag class */
+
+.description-1{
+    font-family: sans-serif;
+    color: rgb(202, 205, 0);
+    font-size: 30px;
+}
+
+.pembungkus {
+    background-color: darkblue;
+    .judul {
+        color: red;
+        font-size: 50px;
+        text-align: center;
+    }
+
+    p{
+        font-size: 25px;
+        color: aliceblue;
+        text-align: center;
+    }
+
+}
